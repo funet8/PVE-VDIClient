@@ -733,7 +733,8 @@ def pveauth(username, passwd=None, totp=None):
 						token_name=G.hosts[G.current_hostset]['token_name'],
 						token_value=G.hosts[G.current_hostset]['token_value'],
 						verify_ssl=G.hosts[G.current_hostset]['verify_ssl'], 
-						port=port
+						port=port,
+						timeout=G.timeout
 					)
 				elif totp:
 					G.proxmox = proxmoxer.ProxmoxAPI(
@@ -742,7 +743,8 @@ def pveauth(username, passwd=None, totp=None):
 						otp=totp,
 						password=passwd,
 						verify_ssl=G.hosts[G.current_hostset]['verify_ssl'],
-						port=port
+						port=port,
+						timeout=G.timeout
 					)
 				else:
 					G.proxmox = proxmoxer.ProxmoxAPI(
@@ -750,7 +752,8 @@ def pveauth(username, passwd=None, totp=None):
 						user=f"{username}@{G.hosts[G.current_hostset]['backend']}",
 						password=passwd,
 						verify_ssl=G.hosts[G.current_hostset]['verify_ssl'],
-						port=port
+						port=port,
+						timeout=G.timeout
 					)
 				connected = True
 				authenticated = True
