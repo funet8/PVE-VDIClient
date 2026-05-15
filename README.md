@@ -1,5 +1,7 @@
 # PVE VDI Client
 
+[中文文档](README_cn.md)
+
 This project's focus is to create a simple VDI client intended for mass deployment. This VDI client connects directly to Proxmox VE and allows users to connect (via Spice) to any VMs they have permission to access.
 
 Defining multiple Proxmox clusters is possible and can allow end users to easily select which 'server group' they wish to connect to:
