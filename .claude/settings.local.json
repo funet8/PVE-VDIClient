@@ -25,7 +25,8 @@
       "Bash(python)",
       "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/Scripts/pyinstaller.exe --onefile --windowed --noconfirm --hidden-import proxmoxer.backends --hidden-import proxmoxer.backends.https --hidden-import proxmoxer.backends.https.AuthenticationError --hidden-import proxmoxer.core --hidden-import proxmoxer.core.ResourceException --hidden-import subprocess.TimeoutExpired --hidden-import subprocess.CalledProcessError --hidden-import requests.exceptions --hidden-import requests.exceptions.ReadTimeout --hidden-import requests.exceptions.ConnectTimeout --hidden-import requests.exceptions.RequestException --add-data \"vdiclient.ini;.\" --name vdiclient --icon \"vdiicon.ico\" -y \"vdiclient.py\")",
       "Bash(python -c \"import py_compile; py_compile.compile\\('vdiclient.py', doraise=True\\); print\\('Syntax OK'\\)\")",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/Scripts/pyinstaller.exe --onefile --windowed --noconfirm --add-data \"vdiclient.ini;.\" --name vdiclient --icon \"vdiicon.ico\" vdiclient.py)"
     ]
   }
 }

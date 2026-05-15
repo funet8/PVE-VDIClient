@@ -8,3 +8,4 @@
 **/__pycache__
 vdiclient.spec
 vdiclient.ini
+/.claude/*
