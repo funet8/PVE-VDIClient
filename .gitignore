@@ -4,5 +4,7 @@
 /dist/*.wixobj
 /dist/*.wxs
 /dist/*.wixpdb
+/dist/*.exe
 **/__pycache__
 vdiclient.spec
+vdiclient.ini

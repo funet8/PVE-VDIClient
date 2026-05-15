@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip list *)",
+      "Read(//c/Users/Administrator/AppData/Local/Programs/Python//**)",
+      "Bash(ls /c/Python*)",
+      "Read(//usr/**)",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python -m pip install pyinstaller proxmoxer customtkinter requests pywin32)",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple)",
+      "Bash(pip config *)",
+      "Bash(env)",
+      "Bash(reg get *)",
+      "Bash(netsh winhttp *)",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python -m pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --trusted-host pypi.tuna.tsinghua.edu.cn -i https://pypi.tuna.tsinghua.edu.cn/simple pyinstaller proxmoxer customtkinter requests pywin32)",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python -m pip install --proxy \"\" -i https://pypi.tuna.tsinghua.edu.cn/simple pyinstaller proxmoxer customtkinter requests pywin32)",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python -c \"import urllib.request; urllib.request.urlopen\\('https://pypi.org'\\)\")",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python -m pip install --upgrade pip)",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python -c ' *)",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python \"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\get-pip.py\" --no-setuptools --no-wheel)",
+      "Bash(ls -la \"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\pip_downloads\\\\\\\\\")",
+      "Read(//c/Users/Administrator/AppData/Local/Temp/pip_downloads/**)",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python -m pip install --no-index --find-links=\"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\pip_downloads\" pyinstaller proxmoxer customtkinter requests pywin32)"
+    ]
+  }
+}
