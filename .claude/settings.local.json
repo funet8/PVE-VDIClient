@@ -19,7 +19,13 @@
       "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python \"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\get-pip.py\" --no-setuptools --no-wheel)",
       "Bash(ls -la \"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\pip_downloads\\\\\\\\\")",
       "Read(//c/Users/Administrator/AppData/Local/Temp/pip_downloads/**)",
-      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python -m pip install --no-index --find-links=\"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\pip_downloads\" pyinstaller proxmoxer customtkinter requests pywin32)"
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/python -m pip install --no-index --find-links=\"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\pip_downloads\" pyinstaller proxmoxer customtkinter requests pywin32)",
+      "Bash(python3)",
+      "Bash(python -c ' *)",
+      "Bash(python)",
+      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python310/Scripts/pyinstaller.exe --onefile --windowed --noconfirm --hidden-import proxmoxer.backends --hidden-import proxmoxer.backends.https --hidden-import proxmoxer.backends.https.AuthenticationError --hidden-import proxmoxer.core --hidden-import proxmoxer.core.ResourceException --hidden-import subprocess.TimeoutExpired --hidden-import subprocess.CalledProcessError --hidden-import requests.exceptions --hidden-import requests.exceptions.ReadTimeout --hidden-import requests.exceptions.ConnectTimeout --hidden-import requests.exceptions.RequestException --add-data \"vdiclient.ini;.\" --name vdiclient --icon \"vdiicon.ico\" -y \"vdiclient.py\")",
+      "Bash(python -c \"import py_compile; py_compile.compile\\('vdiclient.py', doraise=True\\); print\\('Syntax OK'\\)\")",
+      "Bash(git checkout *)"
     ]
   }
 }

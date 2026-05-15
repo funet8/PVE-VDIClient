@@ -77,6 +77,15 @@ def loadconfig(config_location = None, config_type='file', config_username = Non
 				config_location = location
 				break
 		if not config_location:
+			try:
+				import sys
+				if hasattr(sys, '_MEIPASS'):
+					bundled_path = sys._MEIPASS + '/vdiclient.ini'
+					if os.path.exists(bundled_path):
+						config_location = bundled_path
+			except Exception:
+				pass
+		if not config_location:
 			win_popup_button(f'Unable to read supplied configuration from any location!', 'OK')
 			return False
 		try:
